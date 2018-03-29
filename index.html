@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bitbucket - the Git solution for professional teams</title>
     <link rel="icon" href="./images/favicon-img.png" sizes="16x16"  type="image/gif">
     <!-- link for bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
 
   <!-- link for fa fa-fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,15 +15,12 @@
     <link rel="stylesheet" href="./css/bitbucket.css">
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-light navbar-light">
-        <a class="navbar-brand" href="#">
-          <img src="./images/Bitbucket-blue.svg" width="193px" height="23.937px" alt="">
-        </a>
-        <button  class="navbar-toggler" data-toggle="collapse" data-target="#a" aria-controls="a" aria-expanded="false" aria-label="Toggle navigation" type="button" name="button">
-          <span class="fa fa-angle-down "></span>
-        </button>
-        <div class="collapse navbar-collapse" id="a">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="./images/Bitbucket-blue.svg" height="22px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav mt-md-2 mr-auto" >
             <li class="nav-item">
               <a href="#" id="f" class="nav-link text-primary">Features</a>
@@ -40,47 +38,72 @@
               <a href="#" id="f" class="nav-link text-primary">Pricing</a>
             </li>
           </ul>
-
+          <ul class="navbar-nav mt-md-2">
+            <a href="# " id="d" class="btn text-dark" style="border-color:#FFAB00;">Try it free</a>
+          </ul>
         </div>
-        <ul class="navbar-nav mt-md-2">
-          <a href="# " id="d" class="btn text-dark" style="border-color:#FFAB00;">Try it free</a>
-        </ul>
       </nav>
-    </header>
+      <main>
+        <div class="container">
+          <div class="jumbotron bg-light">
+            <h1 class="text-center">Code, Manage, Collaborate</h1>
+            <p class="text-center">Bitbucket is <em>the</em> Git solution for professional teams</p>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary " style="margin-top: 20px;
+                margin-bottom: 28px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 16px;
+                padding-right: 16px;">Get started for free</a>
+            </div>
+            <div class="text-center">
+                <a href="#" class=""><small>Host it yourself with Bitbucket Server</small></a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="container">
+        <div class="row  mt-md-5">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-8  mt-md-4">
+            <h2 class="font-weight-bold text-center "style="margin-bottom:25px;" >Built for professional teams</h2>
+            <p class="text-center text-muted" >Distributed version control system that makes it easy
+               for you to collaborate with your team.
+               The only collaborative Git solution that massively scales.</p>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+        <div class="row mt-md-5">
+          <div class="col-md-6 ">
+            <img src="./images/bitbucket pull request browser highlighted.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-5 "  style="margin-top:24px;">
+            <div class=" ml-md-4 mr-md-2 ">
+              <h4 class="font-weight-bold" >Code collaboration on steroids</h4>
+              <p class="text-muted"><small>Approve code review more efficiently with pull requests. Hold discussions right in the source code with inline comments.
+                </small> </p>
+                <h4 class="font-weight-bold" style="margin-top:48px; margin-bottom:20px;">Git that massively scales</h4>
+                <p class="text-muted">
+                  <small>
+                      Have uninterrupted access with
+                          <a href="https://www.atlassian.com/enterprise/data-center">Bitbucket Data Center</a>.
+                                       Fast performance wherever you are in the world.
+                  </small>
+                </p>
+            </div>
 
-    <div class="hero">
-      <div class="container ">
-        <div class="jumbotron bg-light" >
-          <h1 class="text-center font-weight-bold" style="margin-bottom:24px;">Code, Manage, Collaborate</h1>
-          <p class="text-center" style="margin-bottom:24px;">Bitbucket is <em>the</em> Git solution for professional teams</p>
-          <div class="text-center">
-            <a href="#" class="btn btn-primary" style="margin-top: 20px;margin-bottom: 28px;padding-top: 10px;padding-bottom: 10px;padding-left: 16px;padding-right: 16px;">
-              Get started for free
-            </a>
-          <!-- <div class="row">
-          <div class="col-md-2 bg-success">
-              ddd
-            </div> -->
-            <!-- <div class="col-md-8 bg-warning ">
-              <h1 class="text-center font-weight-bold" style="margin-bottom:24px;">Code, Manage, Collaborate</h1>
-              <p class="text-center" style="margin-bottom:24px;">Bitbucket is <em>the</em> Git solution for professional teams</p>
-              <div class="text-center">
-                <a href="#" class="btn btn-primary" style="margin-top: 20px;margin-bottom: 28px;padding-top: 10px;padding-bottom: 10px;padding-left: 16px;padding-right: 16px;">
-                  Get started for free
-                </a>
-              </div>
 
-            </div> -->
-            <!-- <div class="col-md-2 bg-danger">
-              gg
-            </div> -->
-          <!-- </div>
-        </div> -->
+          </div>
+        </div>
       </div>
-    </div>
+
+
+
     <!-- link for bootstrap  and jquery js library -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
   </body>
 </html>

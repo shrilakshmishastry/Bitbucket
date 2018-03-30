@@ -4,3 +4,13 @@
 #f:hover{
   text-decoration: underline;
 }
+.portland-background{
+  background-image: url('../images/portland1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 378px;
+}
+.author{
+  margin-bottom: 32px;
+  font-style: normal;
+}

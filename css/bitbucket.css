@@ -1,8 +1,14 @@
-#d:hover{
-  background-color: #FFAB00;
+#d:hover {
+  background-color: #0000ff;
+  color: white;
 }
+
 #f:hover{
   text-decoration: underline;
+
+}
+#f{
+  color: blue;
 }
 .portland-background{
   background-image: url('../images/portland1.jpg');
@@ -16,4 +22,48 @@
 }
 .bitbucket-customer{
   height: 160px;
+}
+
+h3{
+  color: #DFDAD4;
+}
+/* #l{
+  background-image: url('../images/bitbucket pull request.png');
+  background-size: cover;
+} */
+#t:hover{
+   color: blue;
+
+}
+.code-smarter-row-custom{
+  margin-bottom: 50px;
+
+}
+.code-smarter-col-custom
+{
+
+
+}
+
+.code-smarter-row1-custom{
+  padding-top:140px;
+}
+.asset15-custom{
+  height: 50px;
+  width: 42px;
+}
+.code-smarter-div-custom{
+  padding-left: 30px;
+}
+.Flexible-custom{
+  margin-bottom: 48px;
+}
+.arrow-color{
+  color: #00C5CD;
+  font-size: 40px;
+}
+.font{
+  height: 10px;
+  width: 10px;
+  background-color: #0000ff;
 }

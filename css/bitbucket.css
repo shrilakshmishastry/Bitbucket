@@ -67,3 +67,15 @@ h3{
   width: 10px;
   background-color: #0000ff;
 }
+.footer-custom{
+  margin-top:50px;
+}
+.footer-h4-custom{
+    margin-bottom: 24px;
+}
+.footer-a-custom{
+  margin-left: 110px;
+}
+.footer-col-custom{
+  margin-top: 50px;
+}

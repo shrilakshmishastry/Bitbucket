@@ -79,3 +79,20 @@ h3{
 .footer-col-custom{
   margin-top: 50px;
 }
+.jumbotron-custom{
+  background-color:white;
+}
+.anchor-tag-custom{
+  background-color: #0000ff;
+}
+.jumbotron-col-custom{
+  margin-bottom: 20px;
+}
+.integrations-column-custom{
+  margin-bottom: 48px;
+  margin-top: 30px;
+}
+.img-custom{
+  height: 25px;
+
+}

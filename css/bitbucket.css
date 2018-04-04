@@ -96,3 +96,27 @@ h3{
   height: 25px;
 
 }
+.carousel-control-prev-icon{
+  background-color: black;
+}
+.carousel-control-next-icon{
+  background-color: black;
+}
+.carousel-img-custom{
+  height: 110px;
+}
+.carousel-img2-custom{
+  height: 135px;
+}
+.background-image-quote{
+  background-image: url('../images/background-img.jpeg');
+  background-size: cover;
+}
+.market-logo-custom{
+  height: 75px;
+}
+.docker-img-custom{
+  height: 110px;
+  width: 110px;
+  margin-left: 85px;
+}

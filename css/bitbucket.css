@@ -120,3 +120,20 @@ h3{
   width: 110px;
   margin-left: 85px;
 }
+.host-on-your-server-row-custom{
+  margin-top: 100px;
+}
+.login-custom{
+  margin-top: 100px;
+  height: 1000px;
+}
+.login-atlasian-custom{
+  height: 85px;
+  width: 200px;
+  
+}
+.login-bitbucket-custom{
+  height: 75px;
+  width: 150px;
+
+}
